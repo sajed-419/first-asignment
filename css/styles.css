@@ -104,4 +104,19 @@ background-position: center;
     font-size: 92px;
     margin-top: 16px;
     font-weight: 900;
+    font-family: mero;
+}
+.sixty-containar{
+    text-align: center;
+    margin-top: 100px;
+}
+.sixty-main{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
