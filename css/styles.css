@@ -1,4 +1,59 @@
+/* images bannar style */
+/* header {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(../images/Banner\ Image.png); */
+background-repeat: no-repeat;
+background-position: bottom;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 20px;
+width: 82.5%;
+margin: auto;
+border-radius: 16px;
+padding: 0 130px;
+margin-right: 50px;
+margin-left: 50px;
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), url(../images/Banner\ Image.png));
 
+
+
+} *
+
+*/
+/* text styles */
+/* .header-content {
+    margin-bottom: 150px;
+    text-align: center;
+    text-shadow: 30px;
+    margin: 0 50px;
+} */
+
+/* .happy-new-year-titles1 {
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+
+} */
+/* <div class="line"></div> */
+
+/* .happy-new-year-titles1 {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+
+} */
+/* .happy-new-year-titles {
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    margin-top: 17px;
+
+} */
 header {
     margin: auto;
     padding: 0px;
@@ -11,8 +66,42 @@ header {
     background-position: center;
     border-radius: 16px;
     width: 82.5%;
-    margin: auto;
+    margin: 50px 140px auto auto;
     height: 600px;
     
     /* height: 100vh; */
+}
+.header-content::after {
+content: '';
+position: absolute;
+border-radius: 16px;
+width: 82.5%;
+margin: auto;
+height: 600px;
+background-color: rgba(0, 0, 0, 0.55);
+background-position: center;
+}
+/* text styles */
+.line{
+    position: absolute;
+    top: 27%;
+    left: 33%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+}
+.happy-new-year-titles1{
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 0px;
+    font-weight: 400;
+    
+}
+
+.happy-new-year-titles2 {
+    text-align: center;
+    color: #fff;
+    font-size: 92px;
+    margin-top: 16px;
+    font-weight: 900;
 }
