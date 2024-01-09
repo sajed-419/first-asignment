@@ -61,7 +61,7 @@ header {
 }
 
 .header-content {
-    background: url(../images/Banner\ Image.png);
+    background: linear-gradient(#070211, #07021100), url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,18 +72,7 @@ header {
     
     /* height: 100vh; */
 }
-.header-content::after {
-content: '';
-position: absolute;
-border-radius: 16px;
-width: 89%;
-margin: auto;
-height: 600px;
-background-color: rgba(0, 0, 0, 0.45);
-background-position: center;
-background-repeat: no-repeat;
-}
-/* text styles */
+
 .line{
     position: absolute;
     top: 0%;
@@ -160,7 +149,7 @@ line-height: normal;
 }
 /* midnight party */
 .midnight-party-img{
-    background-image: url(../images/Vectorrr.png);
+    background-image: linear-gradient(#070211, #07021100), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
