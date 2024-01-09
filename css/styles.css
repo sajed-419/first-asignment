@@ -85,26 +85,29 @@ background-repeat: no-repeat;
 /* text styles */
 .line{
     position: absolute;
-    top: 27%;
-    left: 33%;
+    top: 0%;
+    left: 29%;
     text-align: center;
 }
 .happy-new-year-titles1{
     text-align: center;
     color: #fff;
-    font-size: 32px;
-    margin-top: 0px;
+    font-size: 42px;
+    margin-top: 177px;
     font-weight: 400;
+    margin-bottom: 16px;
+   
     
 }
 
 .happy-new-year-titles2 {
     text-align: center;
     color: #fff;
-    font-size: 92px;
+    font-size: 82px;
     margin-top: 16px;
     font-weight: 900;
-    font-family: mero;
+    font-family: ;
+   
 }
 .sixty-containar{
     text-align: center;
