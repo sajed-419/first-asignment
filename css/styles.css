@@ -57,6 +57,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), url(../image
 header {
     margin: auto;
     padding: 0px;
+    width: 89%;
 }
 
 .header-content {
@@ -86,7 +87,7 @@ background-repeat: no-repeat;
 .line{
     position: absolute;
     top: 0%;
-    left: 29%;
+    left: 0%;
     text-align: center;
 }
 .happy-new-year-titles1{
@@ -96,6 +97,8 @@ background-repeat: no-repeat;
     margin-top: 177px;
     font-weight: 400;
     margin-bottom: 16px;
+    margin-left: 530px;
+    margin-right: 530px;
    
     
 }
@@ -107,7 +110,8 @@ background-repeat: no-repeat;
     margin-top: 16px;
     font-weight: 900;
     font-family: ;
-   
+   margin-left: 344px;
+   margin-right: 344px;
 }
 .sixty-containar{
     text-align: center;
