@@ -130,7 +130,7 @@ line-height: normal;
 .sixty-title{
     margin-top: 48px;
 }
-.sixty-title-text{
+.sixty-title{
     color: #F00;
 text-align: center;
 font-family: Inter;
@@ -138,4 +138,36 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+.all-cate{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.happy-new-year-img{
+    background-image: url(../images/New\ Year\ Photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 60%;
+    margin: auto;
+    height: 600px;    
+}
+/* midnight party */
+.midnight-party-img{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    margin-top: 120px;
+
 }
