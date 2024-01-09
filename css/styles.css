@@ -19,9 +19,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), url(../image
 
 
 
-} *
+}
 
-*/
+* */
 /* text styles */
 /* .header-content {
     margin-bottom: 150px;
@@ -69,17 +69,19 @@ header {
     width: 90%;
     margin: auto;
     height: 600px;
-    
+
     /* height: 100vh; */
 }
 
-.line{
+/* text one */
+.line {
     position: absolute;
     top: 0%;
     left: 0%;
     text-align: center;
 }
-.happy-new-year-titles1{
+
+.happy-new-year-titles1 {
     text-align: center;
     color: #fff;
     font-size: 42px;
@@ -88,8 +90,8 @@ header {
     margin-bottom: 16px;
     margin-left: 530px;
     margin-right: 530px;
-   
-    
+
+
 }
 
 .happy-new-year-titles2 {
@@ -99,45 +101,51 @@ header {
     margin-top: 16px;
     font-weight: 900;
     font-family: ;
-   margin-left: 344px;
-   margin-right: 344px;
+    margin-left: 344px;
+    margin-right: 344px;
 }
-.sixty-containar{
+
+.sixty-containar {
     text-align: center;
     margin-top: 100px;
 }
-.sixty-main{
+
+.sixty-main {
     color: #F00;
 
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.sixty-title{
+
+.sixty-title {
     margin-top: 48px;
 }
-.sixty-title{
+
+.sixty-title {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.all-cate{
+
+.all-cate {
     color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.happy-new-year-img{
+
+.happy-new-year-img {
     background-image: url(../images/New\ Year\ Photo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,10 +153,11 @@ line-height: normal;
     border-radius: 16px;
     width: 60%;
     margin: auto;
-    height: 600px;    
+    height: 600px;
 }
+
 /* midnight party */
-.midnight-party-img{
+.midnight-party-img {
     background-image: linear-gradient(#070211, #07021100), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,5 +167,119 @@ line-height: normal;
     margin: auto;
     height: 600px;
     margin-top: 120px;
+    margin-bottom: 120px;
 
+}
+
+.second-line {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+}
+
+.welcome {
+    text-align: left;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+
+    font-size: 64px;
+    margin-top: 146px;
+    font-weight: 900;
+    font-family: ;
+    margin-left: 134px;
+    margin-right: 550px;
+}
+
+.welcome-description {
+    text-align: left;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    margin-top: 334px;
+    margin-left: 126px;
+    margin-right: 550px;
+}
+
+/* welcome second images */
+.welcome-second-img {
+    /* background-image: url(../images/Group\ 70.png);
+    text-align: right;
+    justify-content: center;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 126px;
+    margin-right: 550px; */
+}
+
+.group-photo {
+
+    position: absolute;
+    margin: 68px 138px 67px 762px;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.join-now {
+    text-align: left;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    margin-top: 414px;
+    margin-left: 146px;
+    margin-right: 570px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* about section */
+.about {
+
+
+    background: linear-gradient(#f3cbcb, #FF000000);
+
+    border-radius: 16px;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    margin-bottom: 120px;
+
+
+}
+
+.colom {
+    text-align: center;
+    position: absolute;
+}
+.section-text{
+    
+    color: #070211;
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.red{
+    color: #FF0000;
+}
+.download-cv{
+    border-radius: 8px;
+    background-color: #F00;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 16px 32px;
+    position: absolute;
+    margin: 316px 550px 110px 550px;
 }
