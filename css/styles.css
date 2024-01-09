@@ -127,3 +127,15 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.sixty-title{
+    margin-top: 48px;
+}
+.sixty-title-text{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
