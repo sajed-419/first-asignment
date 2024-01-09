@@ -65,8 +65,8 @@ header {
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    width: 82.5%;
-    margin: 50px 140px auto auto;
+    width: 90%;
+    margin: auto;
     height: 600px;
     
     /* height: 100vh; */
@@ -75,10 +75,10 @@ header {
 content: '';
 position: absolute;
 border-radius: 16px;
-width: 82.5%;
+width: 90%;
 margin: auto;
 height: 600px;
-background-color: rgba(0, 0, 0, 0.55);
+background-color: rgba(0, 0, 0, 0.45);
 background-position: center;
 }
 /* text styles */
@@ -86,7 +86,6 @@ background-position: center;
     position: absolute;
     top: 27%;
     left: 33%;
-    /* transform: translate(-50%, -50%); */
     text-align: center;
 }
 .happy-new-year-titles1{
